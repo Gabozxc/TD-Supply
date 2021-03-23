@@ -511,9 +511,11 @@ header .header_brand .info {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+    
 }
 header .header_brand .info p {
   color: white;
+  line-height: 35px;
 }
 
 .sec_info {
