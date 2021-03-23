@@ -492,7 +492,7 @@ header .header_brand {
   grid-template-rows: auto;
   margin-bottom: 80px;
   position: relative;
-  top: 280px;
+  top: 240px;
 }
 header .header_brand .img-container {
   width: 100%;
