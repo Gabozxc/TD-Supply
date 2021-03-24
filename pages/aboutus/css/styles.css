@@ -970,4 +970,22 @@ footer .copyraight {
   }
 }
 
+@media (max-width: 1600px) {
+ .sec_reviews .reviews .arrow1 {
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    cursor: pointer;
+}
+   
+ .sec_reviews .reviews .arrow2 {
+    position: absolute;
+    left: 95%;
+    bottom: 40%;
+    cursor: pointer;
+}
+   
+   
+}
+
 /*# sourceMappingURL=styles.css.map */
