@@ -946,6 +946,15 @@ footer .copyraight {
   font-size: 10px;
 }
 
+@media (min-width:1800px){
+
+  .sec_reviews .reviews .arrow2 {
+    left: 75%;
+    bottom: 46%;
+  }
+
+}
+
 @media (min-width: 1700px) {
   .sec_organic {
     height: 500px;
