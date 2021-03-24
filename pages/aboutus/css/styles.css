@@ -968,6 +968,14 @@ footer .copyraight {
   .sec_organic .img-container {
     width: 900px;
   }
+   
+   .sec_reviews .reviews .arrow2 {
+    position: absolute;
+    left: 75%;
+    bottom: 44%;
+    cursor: pointer;
+ } 
+   
 }
 
 @media (max-width: 1600px) {
