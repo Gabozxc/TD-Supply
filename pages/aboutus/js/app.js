@@ -52,10 +52,10 @@ arrowLeft.addEventListener("click", changeSliderLeft);
 sec_workWithUs.addEventListener('click', e => {
 
 
-  if(document.querySelector('.show')){
+  if(document.querySelector('.sec_workWithUs .show')){
 
-    document.querySelector('.show').classList.toggle('hiden')
-    document.querySelector('.show').classList.toggle('show')
+    document.querySelector('.sec_workWithUs .show').classList.toggle('hiden')
+    document.querySelector('.sec_workWithUs .show').classList.toggle('show')
 
     document.querySelector('.fa-angle-down').classList.toggle('fa-chevron-right')
     document.querySelector('.fa-angle-down').classList.toggle('fa-angle-down')
@@ -81,7 +81,6 @@ sec_workWithUs.addEventListener('click', e => {
 
 })
 
-console.log(document.querySelector(`.sub_title1 .mensaje `))
 
 
 
