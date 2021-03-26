@@ -762,8 +762,8 @@ header .footer_header a {
 }
 .sec_contact_us .block .info {
   background-color: #34b1f4;
-  padding: 20px;
-  line-height: 25px;
+  padding: 40px;
+  line-height: 30px;
   color:white;
   display: flex;
   flex-direction: column;
