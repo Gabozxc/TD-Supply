@@ -957,6 +957,7 @@ footer .copyraight {
    .sec_reviews .reviews .arrow1 {
     left: 25% !important;
     bottom: 50% !important;
+    top: auto !important;
   }
    
     .sec_reviews .reviews .arrow2 i, .sec_reviews .reviews .arrow1 i {
