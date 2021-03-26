@@ -573,9 +573,9 @@ header .header_brand .info p {
 .sec_info {
   width: 60%;
   margin: 0px auto;
-  margin-top: 10%;
+  margin-top: 3%;
   line-height: 35px;
-  margin-bottom: 8%;
+  margin-bottom: 3%;
   text-align: center;
 }
 
@@ -949,9 +949,20 @@ footer .copyraight {
 @media (min-width:1800px){
 
   .sec_reviews .reviews .arrow2 {
-    left: 75% !important;
-    bottom: 46% !important;
+       left: 0% !important;
+       bottom: 50% !important;
+       right: 25% !important;
   }
+   
+   .sec_reviews .reviews .arrow1 {
+    left: 25% !important;
+    bottom: 50% !important;
+  }
+   
+    .sec_reviews .reviews .arrow2 i, .sec_reviews .reviews .arrow1 i {
+            font-size: 40px;
+  }
+   
 
 }
 
