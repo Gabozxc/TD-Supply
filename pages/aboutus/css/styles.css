@@ -949,7 +949,7 @@ footer .copyraight {
 @media (min-width:1800px){
 
   .sec_reviews .reviews .arrow2 {
-       left: 0% !important;
+       left:auto !important;
        bottom: 50% !important;
        right: 25% !important;
   }
