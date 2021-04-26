@@ -340,7 +340,7 @@ template {
 .grid_template {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 800px 600px 700px auto 1fr;
+  grid-template-rows: 800px 650px auto 680px 1fr;
   width: 100%;
 }
 
@@ -672,7 +672,7 @@ header .footer_header a {
 }
 .sec_categories .products .products_row .product .img-container img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   height: 255px;
 }
 .sec_categories .products .products_row .product .img-container span {
@@ -893,7 +893,32 @@ footer .contact_numbers .title, footer .contact_Address .title {
 }
 footer .copyraight {
   font-size: 10px;
+
 }
+
+.sec_shogun {
+  position: relative;
+  margin-bottom: 1%;
+}
+
+.sec_shogun .contenedor-imagen {
+  max-width: 100%;
+  position:relative;
+}
+.sec_shogun .contenedor-imagen img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec_shogun a {
+  
+  position: absolute;
+  bottom: 8%;
+  left: 45%;
+  font-size: 2rem;
+
+}
+
 
 /*Media querys*/
 @media (min-width: 2000px) {
@@ -982,6 +1007,15 @@ footer .copyraight {
   .sec_organic .img-container {
     width: 900px;
   }
+}
+
+@media (max-width:1600px){
+
+  .sec_shogun a {
+    font-size: 1rem;
+    left: 46%;
+  } 
+
 }
 
 /*# sourceMappingURL=styles.css.map */
